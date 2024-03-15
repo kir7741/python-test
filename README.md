@@ -31,6 +31,11 @@ $ python -m pip install -r requirements.txt
 $ python -m pip freeze > requirements.txt
 ```
 
+5. Deactivate python virtual environment
+```bash
+$ deactivate
+```
+
 ### start-up command line
 
 1. create project
