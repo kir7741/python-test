@@ -64,6 +64,9 @@ e.g. line 34 in testsite/settings.py
 3. Make migrations
 ```bash
 $ python manage.py makemigrations [app_name]
+
+# if you want to check the SQL code
+$ python manage.py sqlmigrate polls 0001
 ```
 
 4. Apply those changes to the database.
